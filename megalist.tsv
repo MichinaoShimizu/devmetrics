@@ -1,4 +1,4 @@
-MetricType	MetricName	DataSource	Description(JP)
+MetricType	MetricName	DataSource	Description(JP)	ExampleCode
 Maintainability	REMEDIATION_TIME	https://developer.codeclimate.com/#get-snapshot	本流ブランチにおける現在の推定修復時間
 Maintainability	IMPLEMENTATION_TIME	https://developer.codeclimate.com/#get-snapshot	本流ブランチにおける現在の推定実装時間
 Maintainability	TECHINICAL_DEBT_RATIO	https://developer.codeclimate.com/#get-snapshot	本流ブランチにおける現在の技術的負債比率
