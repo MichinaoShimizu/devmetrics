@@ -1,37 +1,44 @@
 # devmetrics
-Megalist of metrics in the development process.
 
-開発プロセスにおけるメトリクスのメガリスト作成と取得方法の考察
+開発プロセスにおけるメトリクスのメガリスト作成・整理・標準化と取得方法の考察
 
-PullRequestに関する指標については「特定期間内に本流ブランチにマージされた」という点は共通
+# MEGALIST
 
-- [megalist.tsv](./megalist.tsv)
+開発プロセスに関する考えうるメトリクスのをまとめ巨大なリスト
 
-## Target
+- [MEGALIST](./MEGALIST.tsv)
 
-そのメトリクスが主に何を評価する指標となるのか
+PullRequestに関する指標は「特定期間内に本流ブランチにマージされた」という点は共通
 
-example:
+## 評価対象
+
+論理的な物体。そのメトリクスが主に何を評価する指標となるのか。
+
+__例:__
 - Repository
 - PullRequest
 - Developer
 
-## Category
+## 評価特性
 
-そのメトリクスがTargetのどのような特性を評価する指標となるのか
+論理的な特性。そのメトリクスが評価対象のどのようなことを評価する指標となるのか。
 
-example:
+__例:__
 - Maintainability
 - Productivity
 
-## Name
+## 名称
 
-表現を統一するために適したメトリクス名称
+今後表現を統一するのに適したメトリクス名称。UPPER_CASEで表記。
 
-## DataSource
+## データソース
 
-そのメトリクスを取得する情報元
+そのメトリクスを取得する情報元。
 
-## Description(JP)
+__例:__
+- CodeClimateQuality API
+- Github API
 
-日本語の説明
+## 説明文
+
+日本語の説明文。
