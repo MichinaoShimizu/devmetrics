@@ -8,7 +8,7 @@
 
 PullRequestに関する指標では「特定期間内に本流ブランチにマージされた」という点は共通コンテキスト
 
-- [MEGALIST](./MEGALIST.tsv)
+- [MEGALIST](./megalist.tsv)
 
 ### Metric Name
 
