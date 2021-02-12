@@ -18,6 +18,6 @@ PullRequests	Productivity	PR_COUNT_TOTAL	https://docs.github.com/ja/rest/referen
 PullRequests	Productivity	PR_COMMITTER_COUNT_TOTAL	https://docs.github.com/ja/rest/reference/pulls	本流ブランチに特定期間内にマージされたPullRequestに関わったコミッター総数
 PullRequests	Productivity	PR_REVIEWR_COUNT_TOTAL	https://docs.github.com/ja/rest/reference/pulls	本流ブランチに特定期間内にマージされたPullRequestに関わったレビュアー総数
 PullRequests	Productivity	PR_COUNT_TOTAL_PER_COMMITTER	https://docs.github.com/ja/rest/reference/pulls	本流ブランチに特定期間内にマージされたPullRequestの1コミッターあたり総数
-PullRequests	Productivity	PR_COUNT_TOTAL_PER_REVIEWER	https://docs.github.com/ja/rest/reference/pulls	本流ブランチに特定期間内にマージされたPullRequestの1コミッターあたり総数
+PullRequests	Productivity	PR_COUNT_TOTAL_PER_REVIEWER	https://docs.github.com/ja/rest/reference/pulls	本流ブランチに特定期間内にマージされたPullRequestの1レビュアーあたり総数
 PullRequests	Productivity	PR_REVIEW_CYCLES_TOTAL	https://docs.github.com/ja/rest/reference/pulls	本流ブランチに特定期間内にマージされたPullRequest上で行われたコミッター・レビュアーの往復応答回数総数
 PullRequests	Productivity	PR_REVIEW_CYCLES_AVERAGE	https://docs.github.com/ja/rest/reference/pulls	本流ブランチに特定期間内にマージされたPullRequest上で行われたコミッター・レビュアーの往復応答回数のPR別平均数
