@@ -37,3 +37,5 @@ File	Application Maintainability	COMMITTER_COUNT_PER_FILE	Github API	ファイ�
 File	Application Maintainability	PR_COUNT_PER_FILE	Github API	ファイル別のPullRequest数
 Block	Application Maintainability	CYCLOMATIC_COMPLEXITY	様々なLint	循環的複雑度
 Block	Application Maintainability	CONGNITIVE_COMPLEXITY	様々なLint	認知的複雑度
+PullRequest	Development Productivity	TIME_TO_MERGE	Github API	PullRequest別のPullRequest作成からマージまでの時間
+PullRequest	Development Productivity	TIME_TO_MERGE_AVERAGE	Github API	PullRequest別のPullRequest作成からマージまでの時間のPullRequest平均
