@@ -1,4 +1,4 @@
-TargetType	MetricType	MetricName	DataSource	Description(JP)
+Target	Category	Name	DataSource	Description(JP)
 Repository	Maintainability	REMEDIATION_TIME	https://developer.codeclimate.com/#get-snapshot	現在の推定修復時間
 Repository	Maintainability	IMPLEMENTATION_TIME	https://developer.codeclimate.com/#get-snapshot	現在の推定実装時間
 Repository	Maintainability	TECHINICAL_DEBT_RATIO	https://developer.codeclimate.com/#get-snapshot	現在の技術的負債比率
