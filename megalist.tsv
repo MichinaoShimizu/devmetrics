@@ -39,3 +39,7 @@ Block	Application Maintainability	CYCLOMATIC_COMPLEXITY	様々なLint	循環的�
 Block	Application Maintainability	CONGNITIVE_COMPLEXITY	様々なLint	認知的複雑度
 PullRequest	Development Productivity	TIME_TO_MERGE	Github API	PullRequest別のPullRequest作成からマージまでの時間
 Repository	Development Productivity	TIME_TO_MERGE_AVERAGE	Github API	PullRequest作成からマージまでの時間のPullRequest平均
+PullRequest	Development Productivity	TIME_TO_FIRST_REVIEW	Github API	PullRequest別のPullRequest作成から最初のレビューまでの時間
+Repository	Development Productivity	TIME_TO_FIRST_REVIEW_AVERAGE	Github API	PullRequest作成から最初のレビューまでの時間のPullRequest平均
+PullRequest	Development Productivity	TIME_TO_APPROVED	Github API	PullRequest別のPullRequest作成から承認されるまでの時間
+Repository	Development Productivity	TIME_TO_APPROVED_AVERAGE	Github API	PullRequest作成から承認されるまでの時間のPullRequest平均
