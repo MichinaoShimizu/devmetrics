@@ -2,6 +2,16 @@
 
 開発プロセスにおけるメトリクスの抽出・分類・標準化に対する考察
 
+# Context
+
+- Repositoryには現在の状態を示す指標があり、PullRequestにはその指標を変化させる指標がある。
+- Repositoryは複数のFileで成り立ち、Fileは複数のBlock、Lineで成り立つ。
+- Repositoryは複数のDeveloperによるPullRequestによって変更が加えられる。
+- PullRequestに対してDeveloperはCommitterまたはReviewerとして関わり合う。
+- ReviewerはCommitterの変更の内容に応じてReviewを行う。
+- Committerは別のPullRequestではReviewerであり得る。
+- PullRequestに関する指標では常に「特定期間内に本流ブランチにマージされた」という条件は固定する。
+
 ## MEGALIST
 
 開発プロセスに関する考えうるメトリクスのをまとめ巨大なリスト
@@ -15,8 +25,6 @@
 ### Evaluation Target
 
 その指標が主に何(誰)を評価するのか。評価対象。論理的な物体。
-
-PullRequestに関する指標では「特定期間内に本流ブランチにマージされた」という点は共通コンテキストとする。
 
 ### Evaluation Characteristic
 
@@ -41,3 +49,5 @@ PullRequestに関する指標では「特定期間内に本流ブランチにマ
 ### Description(JP)
 
 日本語の説明文。
+
+
