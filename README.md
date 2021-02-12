@@ -1,12 +1,10 @@
-# devmetrics
+# devmetrics-standard
 
-開発プロセスにおけるメトリクスのメガリスト作成・整理・標準化と取得方法の考察
+開発プロセスにおけるメトリクスの抽出・分類・標準化に対する考察
 
 ## MEGALIST
 
 開発プロセスに関する考えうるメトリクスのをまとめ巨大なリスト
-
-PullRequestに関する指標では「特定期間内に本流ブランチにマージされた」という点は共通コンテキスト
 
 - [MEGALIST](./megalist.tsv)
 
@@ -17,6 +15,8 @@ PullRequestに関する指標では「特定期間内に本流ブランチにマ
 ### Evaluation Target
 
 その指標が主に何(誰)を評価するのか。評価対象。論理的な物体。
+
+PullRequestに関する指標では「特定期間内に本流ブランチにマージされた」という点は共通コンテキストとする。
 
 ### Evaluation Characteristic
 
