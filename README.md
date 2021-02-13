@@ -17,7 +17,7 @@ REMEDIATION_TIME等、より上位の指標に集約されるため言及しな�
 - [ソースコードの現況を表す指標](metrics/sourcecode.tsv)
   - 目的：RepositoryOwnerがRepositoryの現況を俯瞰する
 - [単一のPullRequestの状態を表す指標](metrics/pullrequest.tsv)
-  - 目的：開発者・レビュアーがマージされたPullRequestを振り返る
+  - 目的：開発者が自らのPullRequestや、それによって生じた本流ブランチの変化を振り返る
 - [開発プロセスの状態を表す指標](metrics/pullrequests.tsv)
   - 目的：開発プロセスの無駄な時間や生産性の増減を検知する
 - [開発者のコスト・貢献度を表す指標](metrics/developer.tsv)
