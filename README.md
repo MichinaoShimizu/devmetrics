@@ -2,22 +2,23 @@
 
 開発プロセスにまつわる指標の抽出・整理
 
-CONGNITIVE_COMPLEXITY等、静的コード解析上のメトリクスは
+## 概要
 
-ISSUE_COUNTやREMEDIATION_TIMEに集約されるため言及しない
+循環的複雑度等、静的コード解析上の詳細なメトリクスは
 
-## ソースコードの現況を表す指標
+REMEDIATION_TIME等、より上位の指標に集約されるため言及しない
 
-- [sourcecode.tsv](metrics/sourcecode.tsv)
+## 指標の分類
 
-## 単一のPullRequestの状態を表す指標
+ソースコード・開発者・時間など様々な指標が絡まり合うため
 
-- [pullrequest.tsv](metrics/pullrequest.tsv)
+ある程度の目的に応じて指標の分類を行う
 
-## 複数のPullRequestの情報をもとに開発プロセスの状態を表す指標
-
-- [pullrequests.tsv](metrics/pullrequests.tsv)
-
-## 開発者のコスト・貢献度を表す指標
-
-- [developer.tsv](metrics/developer.tsv)
+- [ソースコードの現況を表す指標](metrics/sourcecode.tsv)
+  - 目的：RepositoryOwnerがRepositoryの現況を俯瞰する
+- [単一のPullRequestの状態を表す指標](metrics/pullrequest.tsv)
+  - 目的：開発者・レビュアーがマージされたPullRequestを振り返る
+- [開発プロセスの状態を表す指標](metrics/pullrequests.tsv)
+  - 目的：開発プロセスの無駄な時間や生産性の増減を検知する
+- [開発者のコスト・貢献度を表す指標](metrics/developer.tsv)
+  - 目的：特定の開発者に対する負荷や、特定の開発者によるソースコードに対する貢献度を検知する
