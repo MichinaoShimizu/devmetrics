@@ -14,6 +14,6 @@
 
 - [pullrequests.tsv](metrics/pullrequests.tsv)
 
-## 開発者の支払ったコストや貢献度の詳細振り返るための指標
+## 開発者の支払ったコストや貢献度を振り返るための指標
 
 - [developer.tsv](metrics/developer.tsv)
