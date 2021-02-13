@@ -20,8 +20,8 @@
     - Repositoryの現況を把握する
 - [単一のPullRequestの状態を表す指標](metrics/pullrequest.tsv)
   - 目的
-    - 自らのPullRequestの規模・質量を知る
-    - 自らのPullRequestのマージによって本流ブランチに与えた影響を知る
+    - 各PullRequestの規模・質量を知る
+    - 各PullRequestのマージによって本流ブランチに与えた影響を知る
 - [開発プロセスの状態を表す指標](metrics/pullrequests.tsv)
   - 目的
     - 開発プロセスの無駄な時間や生産性の増減を把握する
