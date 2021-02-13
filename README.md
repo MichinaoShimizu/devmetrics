@@ -1,6 +1,6 @@
 # devmetrics
 
-開発プロセスにまつわる指標の抽出・整理
+開発プロセスにまつわる指標の抽出・整理
 
 ## megalist
 
@@ -11,7 +11,7 @@
 ### Repositoryに関する各PullRequestによる変更の質量を評価する指標
 
 - [megalist/PR.tsv](megalist/PR.tsv)
--
+
 ### Repositoryに関するPullRequestによる変更の集合の質量を評価する指標
 
 - [megalist/PRs.tsv](megalist/PRs.tsv)
