@@ -2,6 +2,10 @@
 
 開発プロセスにまつわる指標の抽出・整理
 
+CONGNITIVE_COMPLEXITY等、静的コード解析上のメトリクスは
+
+ISSUE_COUNTやREMEDIATION_TIMEに集約されるため言及しない
+
 ## ソースコードの現況を表す指標
 
 - [sourcecode.tsv](metrics/sourcecode.tsv)
