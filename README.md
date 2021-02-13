@@ -2,18 +2,18 @@
 
 開発プロセスにまつわる指標の抽出・整理
 
-## 現在のソースコードの状況を把握する
+## 現在のソースコードの状況を把握するための指標
 
-- [megalist/sourcecode.tsv](megalist/sourcecode.tsv)
+- [sourcecode.tsv](metrics/sourcecode.tsv)
 
-## マージされたPullRequestの内容を振り返る
+## マージされた各PullRequestを振り返るための指標
 
-- [pullrequest](megalist/pullrequest.tsv)
+- [pullrequest.tsv](metrics/pullrequest.tsv)
 
-## 開発プロセス全体の効率を振り返る
+## 開発プロセス(PullRequestの集合)の効率を把握するための指標
 
-- [pullrequests](megalist/pullrequests.tsv)
+- [pullrequests.tsv](metrics/pullrequests.tsv)
 
-## 開発者のコスト・貢献度を振り返る
+## 開発者のコスト・貢献度を把握するための指標
 
-- [megalist/developer.tsv](megalist/developer.tsv)
+- [developer.tsv](metrics/developer.tsv)
