@@ -2,18 +2,18 @@
 
 開発プロセスにまつわる指標の抽出・整理
 
-## ソースコードの現況
+## ソースコードの現況を表す指標
 
 - [sourcecode.tsv](metrics/sourcecode.tsv)
 
-## 各PullRequestの詳細
+## 単一のPullRequestの状態を表す指標
 
 - [pullrequest.tsv](metrics/pullrequest.tsv)
 
-## PullRequestの集合の詳細
+## 複数のPullRequestの情報をもとに開発プロセスの状態を表す指標
 
 - [pullrequests.tsv](metrics/pullrequests.tsv)
 
-## 各開発者の支払ったコストや貢献度
+## 開発者のコスト・貢献度を表す指標
 
 - [developer.tsv](metrics/developer.tsv)
