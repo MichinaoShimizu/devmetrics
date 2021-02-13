@@ -1,0 +1,8 @@
+Name	Description
+REMEDIATION_TIME	現在のソースコードに関する推定修復時間
+IMPLEMENTATION_TIME	現在のソースコードに関する推定実装時間
+TECHINICAL_DEBT_RATIO	現在のソースコードに関する技術的負債比率
+LETTER_GRADE	現在のソースコードに関する技術的負債比率(英字)
+LOC	現在のソースコードに関する意味のあるコード行数
+ISSUE_COUNT	現在のソースコードに関する静的コード解析上の指摘数
+TEST_COVERAGE	現在のソースコードに関するテストカバレッジ
