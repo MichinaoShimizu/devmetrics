@@ -1,8 +1,6 @@
 Name	Description	DataSource
 DEVELOPER_ID	各開発者のID	Github
 DEVELOPER_NAME	各開発者の名称	Github
-DEVELOPER_TEAMS_AS_MEMBER	各開発者のメンバーとして所属するチームID(複数)	Github
-DEVELOPER_TEAMS_AS_MAINTAINER	各開発者のメンテナーとして所属するチームID(複数)	Github
 DEVELOPER_COMMITTED_PR_COUNT	各開発者に関するコミッターとして活動したPullRequest数	Github
 DEVELOPER_COMMITTED_PR_SIZE_AVERAGE	各開発者に関するコミッターとして活動したPullRequestによる平均変更行数	Github
 DEVELOPER_REVIEWED_PR_COUNT	各開発者に関するレビュアーとして活動したPullRequest数	Github
