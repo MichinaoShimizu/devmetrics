@@ -9,21 +9,21 @@
 
 ## 指標の分類
 
-- [Repositoryの現況を表す指標](metrics/repository.tsv)
+- [単一のRepositoryの状態を表す指標](metrics/repository.tsv)
   - 目的
     - Repositoryの現況を把握する
 - [単一のPullRequestの状態を表す指標](metrics/pullrequest.tsv)
   - 目的
     - 各PullRequestの規模・質量を知る
     - 各PullRequestのマージによって本流ブランチに与えた影響を知る
-- [開発プロセスの状態を表す指標](metrics/pullrequests.tsv)
+- [複数のPullRequestの状態を表す指標](metrics/pullrequests.tsv)
   - 目的
     - 開発プロセスの無駄な時間や生産性の増減を把握する
-- [開発者のコスト・貢献度を表す指標](metrics/developer.tsv)
+- [単一の開発者のコスト・貢献度を表す指標](metrics/developer.tsv)
   - 目的
     - 特定の開発者に対する負荷の増大を知る
     - 特定の開発者のソースコードに対する貢献を知る
-- [チームのコスト・貢献度を表す指標](metrics/team.tsv)(GithubTeamsを使う場合)
+- [複数の開発者のコスト・貢献度を表す指標](metrics/team.tsv)(GithubTeamsを使う場合)
   - 目的
     - 特定のチームに対する負荷の増大を知る
     - 特定のチームのソースコードに対する貢献を知る
