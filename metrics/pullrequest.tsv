@@ -10,3 +10,4 @@ PR_LOC_CHANGED	各PullRequestに関するLOC変動数
 PR_ISSUE_COUNT_CHANGED	各PullRequestに関する指摘数変動数
 PR_TEST_COVERAGE_CHANGED	各PullRequestに関するテストカバレッジ変動率
 PR_REVIEW_COMMENT_BYTE_SIZE	各PullRequestに関するレビューコメントのバイト数
+PR_TYPE	各PullRequestの種別(設定変更・機能拡張・バグ改修・リファクタリング・資料充足等)
