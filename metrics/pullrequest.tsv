@@ -3,7 +3,7 @@ PR_ID	各PullRequestのID	Github
 PR_URL	各PullRequestのURL	Github
 PR_TITLE	各PullRequestのタイトル	Github
 PR_NUMBER	各PullRequestの番号	Github
-PR_TYPE	各PullRequestの種別	Github
+PR_TYPE	各PullRequestの種別	None
 PR_AUTHOR	各PullRequestの作成者名	Github
 PR_CLOSER	各PullRequestの終了者名	Github
 PR_COMMITTERS	各PullRequestのコミッター名(複数)	Github
