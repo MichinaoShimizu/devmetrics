@@ -15,7 +15,7 @@ REPOSITORY_TEST_COVERAGE	リポジトリのテストカバレッジ	CodeClimateQ
 REPOSITORY_CONCRETE_CLASS_COUNT	リポジトリに含まれる具象クラス数	None
 REPOSITORY_ABSTRACT_CLASS_COUNT	リポジトリに含まれる抽象クラス・インターフェース数	None
 REPOSITORY_ABSTRACTION	リポジトリの抽象度。CONCRETE_CLASS_COUNT/ABSTRACT_CLASS_COUNT	None
-REPOSITORY_FAN_IN	リポジトリが依存されている外部コンポーネント数	None
-REPOSITORY_FAN_OUT	リポジトリが依存している外部コンポーネント数	None
+REPOSITORY_FAN_IN	リポジトリに依存している外部リポジトリ数	None
+REPOSITORY_FAN_OUT	リポジトリが依存している外部リポジトリ数	None
 REPOSITORY_INSTABILITY	リポジトリの不安定さ。FAN_IN/(FAN_IN+FAN_OUT)。0:最も安定,1:最も不安定。	None
 REPOSITORY_SAP_DISTANCE	リポジトリの安定度・抽象度等価原則に関する主系列からの距離。|ABSTRACTION+INSTABILITY-1|。0:等価,1:最もかけ離れている。	None
