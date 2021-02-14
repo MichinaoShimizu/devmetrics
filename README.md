@@ -9,7 +9,7 @@
 
 ## 指標の分類
 
-- [ソースコードの現況を表す指標](metrics/sourcecode.tsv)
+- [Repositoryの現況を表す指標](metrics/repository.tsv)
   - 目的
     - Repositoryの現況を把握する
 - [単一のPullRequestの状態を表す指標](metrics/pullrequest.tsv)
