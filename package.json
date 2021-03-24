@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "lint": "textlint --cache --fix metrics-bucket.tsv"
+    "lint": "textlint --fix ./**/*.md -f stylish"
   },
   "devDependencies": {
     "textlint": "^11.8.2",
