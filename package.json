@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "lint": "textlint --fix '**/*.md'"
+    "lint": "textlint --fix '**/*.md' --ignore-path node_modules"
   },
   "devDependencies": {
     "textlint": "^11.8.2",
