@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "lint": "textlint '**/*.md'"
+    "lint": "textlint --fix '**/*.md'"
   },
   "devDependencies": {
     "textlint": "^11.8.2",
