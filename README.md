@@ -11,7 +11,15 @@
 - DataSourceにはそこから取得した値に演算を加えることで算出できる場合も含む
 - 静的コード解析上の詳細な指標はより上位の指標(REMEDIATION_TIME)に集約されるため記載しない
 
+## 指標の洗い出し
+
+どのような時にどのような指標が必要かを追加していく。
+
+- [metrics-bucket.tsv](metrics-bucket.tsv)
+
 ## 指標の分類
+
+下記はサンプル。
 
 - [各Repositoryの状態を表す指標](metrics/repository.tsv)
   - 目的
